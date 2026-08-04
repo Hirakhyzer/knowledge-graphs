@@ -1,0 +1,128 @@
+{
+  "name": "sample_research_knowledge_graph",
+  "description": "A small academic knowledge graph showing how papers, topics, methods, datasets, claims, limitations, and research gaps can be connected.",
+  "nodes": [
+    {
+      "id": "paper_001",
+      "label": "Knowledge Graphs for Literature Review",
+      "type": "paper",
+      "metadata": {
+        "year": 2026,
+        "domain": "research intelligence"
+      }
+    },
+    {
+      "id": "paper_002",
+      "label": "Explainable Retrieval with Graph Paths",
+      "type": "paper",
+      "metadata": {
+        "year": 2026,
+        "domain": "explainable AI"
+      }
+    },
+    {
+      "id": "topic_kg",
+      "label": "Knowledge Graphs",
+      "type": "topic"
+    },
+    {
+      "id": "topic_xai",
+      "label": "Explainable AI",
+      "type": "topic"
+    },
+    {
+      "id": "method_entity_linking",
+      "label": "Entity Linking",
+      "type": "method"
+    },
+    {
+      "id": "method_graph_centrality",
+      "label": "Graph Centrality Analysis",
+      "type": "method"
+    },
+    {
+      "id": "dataset_abstracts",
+      "label": "Research Abstract Corpus",
+      "type": "dataset"
+    },
+    {
+      "id": "claim_traceability",
+      "label": "Graph paths improve traceability",
+      "type": "claim"
+    },
+    {
+      "id": "claim_retrieval",
+      "label": "Graph context improves retrieval explanation",
+      "type": "claim"
+    },
+    {
+      "id": "limitation_scale",
+      "label": "Small-scale evaluation",
+      "type": "limitation"
+    },
+    {
+      "id": "gap_validation",
+      "label": "Need scalable human-centered validation",
+      "type": "research_gap"
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_001",
+      "target": "topic_kg",
+      "relation": "studies",
+      "evidence": "The paper focuses on graph-based literature review modeling."
+    },
+    {
+      "source": "paper_002",
+      "target": "topic_xai",
+      "relation": "studies",
+      "evidence": "The paper discusses explainability for retrieval outputs."
+    },
+    {
+      "source": "paper_001",
+      "target": "method_entity_linking",
+      "relation": "uses"
+    },
+    {
+      "source": "paper_001",
+      "target": "method_graph_centrality",
+      "relation": "uses"
+    },
+    {
+      "source": "paper_001",
+      "target": "dataset_abstracts",
+      "relation": "evaluates_on"
+    },
+    {
+      "source": "paper_001",
+      "target": "claim_traceability",
+      "relation": "claims"
+    },
+    {
+      "source": "paper_002",
+      "target": "claim_retrieval",
+      "relation": "claims"
+    },
+    {
+      "source": "claim_traceability",
+      "target": "limitation_scale",
+      "relation": "limited_by"
+    },
+    {
+      "source": "claim_retrieval",
+      "target": "limitation_scale",
+      "relation": "limited_by"
+    },
+    {
+      "source": "limitation_scale",
+      "target": "gap_validation",
+      "relation": "suggests_gap"
+    },
+    {
+      "source": "topic_kg",
+      "target": "topic_xai",
+      "relation": "supports"
+    }
+  ]
+}
