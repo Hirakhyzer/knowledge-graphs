@@ -1,0 +1,85 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.52" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#155E75"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 120) rotate(133) scale(420 290)">
+      <stop stop-color="#67E8F9" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30" y="-30" width="1460" height="480" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="34" fill="url(#glow)"/>
+
+  <g opacity="0.25">
+    <circle cx="112" cy="70" r="2" fill="#E0F2FE"/>
+    <circle cx="186" cy="334" r="2" fill="#E0F2FE"/>
+    <circle cx="1288" cy="78" r="2" fill="#E0F2FE"/>
+    <circle cx="1198" cy="350" r="2" fill="#E0F2FE"/>
+    <path d="M0 350 C220 240 350 480 570 330 C760 200 910 350 1100 220 C1210 150 1310 160 1400 90" stroke="#A5F3FC" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M0 90 C260 180 430 20 650 150 C850 270 1000 80 1200 130 C1290 153 1350 200 1400 260" stroke="#C4B5FD" stroke-opacity="0.18" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="760" y="54" width="520" height="312" rx="28" fill="#020617" fill-opacity="0.34" stroke="#A5F3FC" stroke-opacity="0.22"/>
+
+    <g stroke="#A5F3FC" stroke-width="2" stroke-opacity="0.65">
+      <path d="M890 155 L1015 95 L1130 154 L1100 265 L950 288 L845 235 Z"/>
+      <path d="M890 155 L950 288"/>
+      <path d="M1015 95 L1100 265"/>
+      <path d="M1130 154 L845 235"/>
+      <path d="M950 288 L1100 265"/>
+      <path d="M890 155 L1130 154"/>
+      <path d="M1015 95 L845 235"/>
+      <path d="M1210 222 L1130 154 L1100 265"/>
+      <path d="M1210 222 L1015 95"/>
+    </g>
+
+    <g>
+      <circle cx="890" cy="155" r="24" fill="#7C3AED"/>
+      <circle cx="1015" cy="95" r="28" fill="#06B6D4"/>
+      <circle cx="1130" cy="154" r="22" fill="#F59E0B"/>
+      <circle cx="1100" cy="265" r="30" fill="#10B981"/>
+      <circle cx="950" cy="288" r="22" fill="#EC4899"/>
+      <circle cx="845" cy="235" r="18" fill="#60A5FA"/>
+      <circle cx="1210" cy="222" r="20" fill="#A78BFA"/>
+      <circle cx="1015" cy="95" r="9" fill="#ECFEFF"/>
+      <circle cx="1100" cy="265" r="9" fill="#ECFDF5"/>
+    </g>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#E0F2FE" opacity="0.9">
+      <text x="854" y="159">Paper</text>
+      <text x="982" y="100">Topic</text>
+      <text x="1098" y="159">Method</text>
+      <text x="1061" y="270">Dataset</text>
+      <text x="922" y="293">Claim</text>
+      <text x="817" y="240">Gap</text>
+      <text x="1185" y="227">AI</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="92" y="128" fill="#A5F3FC" font-size="22" font-weight="700" letter-spacing="4">ACADEMIC AI · GRAPH REASONING · RESEARCH INTELLIGENCE</text>
+    <text x="90" y="205" fill="#FFFFFF" font-size="64" font-weight="800">Knowledge Graphs Lab</text>
+    <text x="94" y="257" fill="#CBD5E1" font-size="25" font-weight="500">Model entities, relationships, evidence paths, and explainable intelligence systems.</text>
+
+    <g transform="translate(94 302)">
+      <rect width="154" height="42" rx="21" fill="#E0F2FE" fill-opacity="0.12" stroke="#A5F3FC" stroke-opacity="0.35"/>
+      <text x="22" y="27" fill="#ECFEFF" font-size="16" font-weight="700">Entity Graphs</text>
+    </g>
+    <g transform="translate(266 302)">
+      <rect width="150" height="42" rx="21" fill="#E0F2FE" fill-opacity="0.12" stroke="#A5F3FC" stroke-opacity="0.35"/>
+      <text x="22" y="27" fill="#ECFEFF" font-size="16" font-weight="700">Reasoning Paths</text>
+    </g>
+    <g transform="translate(434 302)">
+      <rect width="160" height="42" rx="21" fill="#E0F2FE" fill-opacity="0.12" stroke="#A5F3FC" stroke-opacity="0.35"/>
+      <text x="22" y="27" fill="#ECFEFF" font-size="16" font-weight="700">Graph Analytics</text>
+    </g>
+  </g>
+</svg>
