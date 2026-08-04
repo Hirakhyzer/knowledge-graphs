@@ -1,0 +1,83 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="card" x1="80" y1="110" x2="1120" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" rx="28" fill="url(#bg)"/>
+  <rect x="58" y="54" width="1084" height="532" rx="30" fill="url(#card)" stroke="#CBD5E1"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="92" y="112" fill="#0F172A" font-size="32" font-weight="850">Knowledge Graph Intelligence Dashboard</text>
+    <text x="92" y="142" fill="#64748B" font-size="16">Concept preview for graph analytics, relationship exploration, and evidence tracing</text>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="92" y="174" width="238" height="96" rx="22" fill="#EEF2FF" stroke="#C7D2FE"/>
+    <text x="116" y="210" fill="#4338CA" font-size="14" font-weight="800">ENTITIES</text>
+    <text x="116" y="244" fill="#111827" font-size="34" font-weight="850">1,284</text>
+
+    <rect x="358" y="174" width="238" height="96" rx="22" fill="#ECFEFF" stroke="#A5F3FC"/>
+    <text x="382" y="210" fill="#0E7490" font-size="14" font-weight="800">RELATIONS</text>
+    <text x="382" y="244" fill="#111827" font-size="34" font-weight="850">3,912</text>
+
+    <rect x="624" y="174" width="238" height="96" rx="22" fill="#F0FDF4" stroke="#BBF7D0"/>
+    <text x="648" y="210" fill="#15803D" font-size="14" font-weight="800">PATHS</text>
+    <text x="648" y="244" fill="#111827" font-size="34" font-weight="850">428</text>
+
+    <rect x="890" y="174" width="214" height="96" rx="22" fill="#FFF7ED" stroke="#FED7AA"/>
+    <text x="914" y="210" fill="#C2410C" font-size="14" font-weight="800">GAPS</text>
+    <text x="914" y="244" fill="#111827" font-size="34" font-weight="850">37</text>
+  </g>
+
+  <g>
+    <rect x="92" y="306" width="530" height="228" rx="26" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="122" y="348" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Entity Relationship Map</text>
+    <g stroke="#06B6D4" stroke-width="2.4" stroke-opacity="0.7">
+      <path d="M218 432 L310 376 L426 414 L515 364"/>
+      <path d="M310 376 L344 486 L218 432"/>
+      <path d="M426 414 L344 486 L515 364"/>
+      <path d="M515 364 L552 480 L426 414"/>
+    </g>
+    <circle cx="218" cy="432" r="27" fill="#7C3AED"/>
+    <circle cx="310" cy="376" r="31" fill="#06B6D4"/>
+    <circle cx="426" cy="414" r="29" fill="#F59E0B"/>
+    <circle cx="515" cy="364" r="30" fill="#10B981"/>
+    <circle cx="344" cy="486" r="25" fill="#EC4899"/>
+    <circle cx="552" cy="480" r="23" fill="#60A5FA"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="660" y="306" width="444" height="228" rx="26" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="690" y="348" fill="#0F172A" font-size="20" font-weight="800">Relation Distribution</text>
+    <g transform="translate(700 380)">
+      <text x="0" y="18" fill="#334155" font-size="14" font-weight="700">cites</text>
+      <rect x="94" y="3" width="252" height="18" rx="9" fill="#DBEAFE"/>
+      <rect x="94" y="3" width="212" height="18" rx="9" fill="#3B82F6"/>
+      <text x="360" y="18" fill="#64748B" font-size="13">42%</text>
+    </g>
+    <g transform="translate(700 424)">
+      <text x="0" y="18" fill="#334155" font-size="14" font-weight="700">uses</text>
+      <rect x="94" y="3" width="252" height="18" rx="9" fill="#CCFBF1"/>
+      <rect x="94" y="3" width="156" height="18" rx="9" fill="#14B8A6"/>
+      <text x="360" y="18" fill="#64748B" font-size="13">31%</text>
+    </g>
+    <g transform="translate(700 468)">
+      <text x="0" y="18" fill="#334155" font-size="14" font-weight="700">extends</text>
+      <rect x="94" y="3" width="252" height="18" rx="9" fill="#EDE9FE"/>
+      <rect x="94" y="3" width="104" height="18" rx="9" fill="#8B5CF6"/>
+      <text x="360" y="18" fill="#64748B" font-size="13">21%</text>
+    </g>
+    <g transform="translate(700 512)">
+      <text x="0" y="18" fill="#334155" font-size="14" font-weight="700">limits</text>
+      <rect x="94" y="3" width="252" height="18" rx="9" fill="#FFEDD5"/>
+      <rect x="94" y="3" width="62" height="18" rx="9" fill="#F97316"/>
+      <text x="360" y="18" fill="#64748B" font-size="13">12%</text>
+    </g>
+  </g>
+</svg>
