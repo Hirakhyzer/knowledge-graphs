@@ -1,0 +1,80 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#67E8F9"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="620" rx="30" fill="url(#bg)"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="72" y="88" fill="#F8FAFC" font-size="32" font-weight="850">Knowledge Graph System Architecture</text>
+    <text x="72" y="120" fill="#CBD5E1" font-size="17">From raw sources to explainable graph intelligence outputs</text>
+  </g>
+
+  <g stroke="#67E8F9" stroke-width="3" marker-end="url(#arrow)" opacity="0.85">
+    <path d="M250 230 H394"/>
+    <path d="M544 230 H688"/>
+    <path d="M838 230 H982"/>
+    <path d="M470 296 V390"/>
+    <path d="M764 296 V390"/>
+    <path d="M470 450 H688"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(72 172)">
+      <rect width="178" height="116" rx="24" fill="#111827" stroke="#334155"/>
+      <text x="28" y="44" fill="#A5F3FC" font-size="15" font-weight="800">INPUT SOURCES</text>
+      <text x="28" y="74" fill="#F8FAFC" font-size="18" font-weight="800">Papers · Text</text>
+      <text x="28" y="98" fill="#CBD5E1" font-size="14">Datasets · APIs</text>
+    </g>
+
+    <g transform="translate(394 172)">
+      <rect width="150" height="116" rx="24" fill="#111827" stroke="#334155"/>
+      <text x="24" y="44" fill="#A5F3FC" font-size="15" font-weight="800">ENTITY LAYER</text>
+      <text x="24" y="74" fill="#F8FAFC" font-size="18" font-weight="800">Nodes</text>
+      <text x="24" y="98" fill="#CBD5E1" font-size="14">Typed entities</text>
+    </g>
+
+    <g transform="translate(688 172)">
+      <rect width="150" height="116" rx="24" fill="#111827" stroke="#334155"/>
+      <text x="24" y="44" fill="#A5F3FC" font-size="15" font-weight="800">RELATION LAYER</text>
+      <text x="24" y="74" fill="#F8FAFC" font-size="18" font-weight="800">Edges</text>
+      <text x="24" y="98" fill="#CBD5E1" font-size="14">Typed links</text>
+    </g>
+
+    <g transform="translate(982 172)">
+      <rect width="146" height="116" rx="24" fill="#111827" stroke="#334155"/>
+      <text x="22" y="44" fill="#A5F3FC" font-size="15" font-weight="800">GRAPH CORE</text>
+      <text x="22" y="74" fill="#F8FAFC" font-size="18" font-weight="800">KG Store</text>
+      <text x="22" y="98" fill="#CBD5E1" font-size="14">Reusable model</text>
+    </g>
+
+    <g transform="translate(340 390)">
+      <rect width="260" height="116" rx="24" fill="#0F766E" fill-opacity="0.38" stroke="#5EEAD4" stroke-opacity="0.55"/>
+      <text x="26" y="44" fill="#CCFBF1" font-size="15" font-weight="800">ANALYTICS ENGINE</text>
+      <text x="26" y="74" fill="#F8FAFC" font-size="18" font-weight="800">Centrality · Distribution</text>
+      <text x="26" y="98" fill="#CCFBF1" font-size="14">Communities · Path analysis</text>
+    </g>
+
+    <g transform="translate(688 390)">
+      <rect width="260" height="116" rx="24" fill="#5B21B6" fill-opacity="0.42" stroke="#C4B5FD" stroke-opacity="0.55"/>
+      <text x="26" y="44" fill="#DDD6FE" font-size="15" font-weight="800">REASONING LAYER</text>
+      <text x="26" y="74" fill="#F8FAFC" font-size="18" font-weight="800">Evidence Paths</text>
+      <text x="26" y="98" fill="#DDD6FE" font-size="14">Traceable explanations</text>
+    </g>
+  </g>
+
+  <g opacity="0.28" stroke="#A5F3FC">
+    <circle cx="108" cy="534" r="3" fill="#A5F3FC"/>
+    <circle cx="152" cy="552" r="3" fill="#A5F3FC"/>
+    <circle cx="210" cy="524" r="3" fill="#A5F3FC"/>
+    <path d="M108 534 L152 552 L210 524"/>
+    <circle cx="1040" cy="80" r="3" fill="#A5F3FC"/>
+    <circle cx="1094" cy="108" r="3" fill="#A5F3FC"/>
+    <circle cx="1130" cy="68" r="3" fill="#A5F3FC"/>
+    <path d="M1040 80 L1094 108 L1130 68"/>
+  </g>
+</svg>
